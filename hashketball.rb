@@ -216,7 +216,7 @@ def player_stats(name)
       if player_hash[:player_name] == name
         #binding.pry
         return player_hash.select {|k,v| k !=:player_name}
-        #binding.pry
+        binding.pry
       end
     end
   end
