@@ -205,20 +205,7 @@ arr
 end
 
 
-def player_stats(name)
-  game_hash.each do |team, team_info|
-    #binding.pry
-    #team_info[:players].each do |player_hash|
-      #binding.pry
-      if team_info[:players].each do |player_hash|
-        player_hash[:player_name] == name
-        #binding.pry
-        return player_hash.select {|k,v| k !=:player_name}
-        #binding.pry
-      end
-    end
-  end
-end
+
 
 
 def big_shoe_rebounds
